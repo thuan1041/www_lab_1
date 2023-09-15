@@ -11,6 +11,13 @@
     <title>Title</title>
 </head>
 <body>
+<h1><%= "Hello World!" %></h1>
+<br/>
+<a href="hello-servlet">Hello Servlet</a>
 
+<form action="ControllerServlet">
+    <input type="text" name="test"/>
+    <button type="submit">Add</button>
+</form>
 </body>
 </html>
