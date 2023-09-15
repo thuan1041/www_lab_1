@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.form-create{
+    height: 500px;
+    width: 600px;
+}
+.form-create label{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+.form-create label input{
+    height: 30px;
+    width: 60px;
+    display: block;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+#create_account{
+    height: 30px;
+    width: 120px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+

@@ -6,12 +6,12 @@ public class Account {
     private String password;
     private String email;
     private String phone;
-    private String status;
+    private int status;
 
     public Account() {
     }
 
-    public Account(String account_id, String full_name, String password, String email, String phone, String status) {
+    public Account(String account_id, String full_name, String password, String email, String phone, int status) {
         this.account_id = account_id;
         this.full_name = full_name;
         this.password = password;
@@ -40,7 +40,7 @@ public class Account {
         return phone;
     }
 
-    public String getStatus() {
+    public int getStatus() {
         return status;
     }
 
@@ -64,7 +64,7 @@ public class Account {
         this.phone = phone;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 
